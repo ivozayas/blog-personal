@@ -460,15 +460,14 @@ img {
 /*Contact section*/
 #contact .contact{
     flex-direction: column;
-    max-width: 1200px;
     margin: 0 auto;
     margin-top: 80px;
 }
 #contact h1{
     color: rgb(255, 113, 47);
+    margin-bottom: 20px;
 }
 #contact .contact-items{
-    width: 400px;
     margin-bottom: 30px;
     margin-top: 20px;
     flex-direction: column;
@@ -487,12 +486,12 @@ img {
     box-shadow: 0px 0px 18px 0 #0000002c;
     flex-direction: column;
     transition: .3s ease box-shadow;
+    min-width: 360px;
 }
 #contact .contact-item:hover{
     box-shadow: 0px 0px 4px 0 #0000002c;
 }
 #contact .icon{
-    width: 50px;
     margin: 0 auto;
     margin-bottom: 10px;
 }
@@ -512,38 +511,20 @@ img {
     background: linear-gradient(90deg, rgb(255, 26, 26) 0%, rgb(255, 113, 47) 70%);
     color: white;
     font-size: 1rem;
+    height: 120px;
 }
-.footer{
-    min-height: 50px;
+#footer .footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 20px;
-}
-#footer .brand {
-    margin-top: -20px;
-    color: #474888;
 }
 #footer h2{
     font-size: 1.8rem;
-    font-weight: 500;
-    margin-bottom: 20px;
 }
-/* #footer .social-icon{
-    display: flex;
-    margin-bottom: 30px;
-}
-#footer .social-item{
-    height: 40px;
-    width: 40px;
-    margin: 0 5px;
-}
-#footer .social-item img{
-    filter: grayscale(1);
-    transition: .3s ease filter;
-}
-#footer .social-item:hover img{
-    filter: grayscale(0);
-} */
 /*End Footer*/
 
 /*Keyframes*/
